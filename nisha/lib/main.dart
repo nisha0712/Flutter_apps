@@ -80,9 +80,10 @@ class _MyHomePageState extends State<MyHomePage>
               builder: (context, child) => new Text(
                     "Your Age is ${animation.value.toStringAsFixed(0)}",
                     style: new TextStyle(
-                        fontSize: 30.0,
+                        fontSize: 40.0,
                         fontWeight: FontWeight.bold,
                         fontStyle: FontStyle.italic),
+                        
                   ),
             )
           ],
